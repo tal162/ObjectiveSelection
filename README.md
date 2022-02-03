@@ -1,8 +1,8 @@
-This dataset contains the synthetic patient and treatment data for prostate cancer radiation therapy planning used in the article entitled "Objective Selection for Cancer Treatment: An Inverse Optimization Approach" by Ajayi, Lee, and Schaefer (2021). The data include the dose influence matrices (i.e., the $D$ matrices) and a treatment plan used as input data for the objective selection problem (i.e., $\hat{x}$). Each patient data was generated via the `IMRTP` module of [CERR](https://github.com/cerr/CERR/wiki/IMRT-optimization-interfacing-with-an-external-solver) (Computational Environment for Radiotherapy Research) and an auxiliary optimization problem to generate the D matrices.
+This dataset contains the synthetic patient and treatment data for prostate cancer radiation therapy planning used in the article "Objective Selection for Cancer Treatment: An Inverse Optimization Approach" by Ajayi, Lee, and Schaefer (2021), including the dose influence matrices (i.e., the $D$ matrices) and treatment plans used as input data for the objective selection problem (i.e., $\hat{x}$). The data were generated via the `IMRTP` module of [CERR](https://github.com/cerr/CERR/wiki/IMRT-optimization-interfacing-with-an-external-solver) (Computational Environment for Radiotherapy Research) and an auxiliary optimization problem to generate the D matrices.
 
 ## Data Description
 
-This dataset contains the dose influence matrices for prostate cancer radiation therapy treatment planning as well as a treatment plan used as input for the objective selection problem.
+For each patient, the data contain the dose influence matrices as well as a treatment plan used as input for the objective selection problem.
 
 * `D_CTV.mat`: Dose influence matrix for the clinical target volume
 
